@@ -36,7 +36,7 @@ let test=[
      
                 let start=new Date();
                 let d=0;
-                let kiritilgan_javoblar="",javoblar="";
+                let javoblar="";
                 
                 for(let i=0;i<=test.length-1;i++){
                     variant=prompt(` ${test[i].savol} \n ${test[i].variant[0]}\n ${test[i].variant[1]}\n ${test[i].variant[2]} \n ${test[i].variant[3]}`);
@@ -82,8 +82,8 @@ let test=[
         else if(start==2){
             loop=true;
             while(loop){
-                savol2=prompt("savol kiriting: "),
-                variant1=prompt("1-variantni kiriting");
+                savol2=prompt("savol kiriting: ");
+                variant1=prompt("1-variantni kiriting")
                 variant2=prompt("2-variantni kiriting");
                 variant3=prompt("3-variantni kiriting");
                 variant4=prompt("4-variantni kiriting");
